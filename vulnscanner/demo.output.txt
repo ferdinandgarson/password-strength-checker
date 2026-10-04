@@ -1,0 +1,16 @@
+Demo: started a local test web server on 127.0.0.1:8000
+
+VULNERABILITY REPORT
+Target: 127.0.0.1
+Date: 2026-10-04 09:40
+--------------------------------------------------
+[OPEN] 8000/HTTP-alt  banner: HTTP/1.0 200 OK
+[WEB] Missing security header: Content-Security-Policy
+[WEB] Missing security header: X-Frame-Options
+[WEB] Missing security header: X-Content-Type-Options
+[WEB] Missing security header: Strict-Transport-Security
+[WEB] Server header discloses software: SimpleHTTP/0.6 Python/3.12.3
+--------------------------------------------------
+Total findings: 6
+
+Saved: vuln_report.txt
