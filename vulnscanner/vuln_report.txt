@@ -1,0 +1,8 @@
+VULNERABILITY REPORT
+Target: 127.0.0.1
+Date: 2026-10-04 15:08
+--------------------------------------------------
+[OPEN] 445/SMB
+   [WEAK CONFIG] SMB exposure is risky
+--------------------------------------------------
+Total findings: 2
