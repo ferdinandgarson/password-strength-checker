@@ -1,0 +1,5 @@
+Paste a phishing-style email, e.g. Urgent! Your bank account is locked. Click http://secure-bank-login.xyz to verify your password now. It should say Phishing.
+
+
+
+Paste a normal email, e.g. Hi, the meeting is at 3 PM tomorrow. Please bring the report. It should say Safe.

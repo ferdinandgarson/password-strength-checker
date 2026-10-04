@@ -1,0 +1,20 @@
+Dataset size: 32  (train 22, test 10)
+
+Accuracy: 90.00%
+
+Confusion Matrix (rows=actual, cols=predicted)
+            Safe  Phishing
+Safe           5         0
+Phishing       1         4
+
+               precision    recall  f1-score   support
+
+        Safe       0.83      1.00      0.91         5
+    Phishing       1.00      0.80      0.89         5
+
+    accuracy                           0.90        10
+   macro avg       0.92      0.90      0.90        10
+weighted avg       0.92      0.90      0.90        10
+
+"Your account is suspended! Verify your password now http://s..." -> Phishing (100% phishing)
+"Hi, attaching the notes from today's class. See you tomorrow..." -> Safe (4% phishing)
